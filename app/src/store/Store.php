@@ -287,6 +287,18 @@ class Store
         $count = $res->num_rows;
         return $count;
     }
+    public function countOrderDoneToday(){
+        $sql = "select * from `orders` where DATE(`ordered_at`) = CURDATE()";
+        $res = $this->conn->query($sql);
+        $count = $res->num_rows;
+        return $count;
+    }
+    public function countOrderDoneMonth(){
+        $sql = "select * from `orders` where MONTH(`ordered_at`) = CURDATE()";
+        $res = $this->conn->query($sql);
+        $count = $res->num_rows;
+        return $count;
+    }
     public function countTodayOrder(){
         $sql = "select * from `orders` where DATE(`ordered_at`) = CURDATE()";
         $res = $this->conn->query($sql);

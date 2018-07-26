@@ -1,0 +1,42 @@
+a.btn-primary,
+a.btn-danger,
+a.btn-warning,
+a.btn-info,
+a.btn-success {
+  color: #fff !important;
+}
+#order {
+  border: 2px solid black;
+}
+#order th {
+  border: 1px solid #cacaca;
+  vertical-align: top;
+}
+#order td {
+  border: 1px solid #cacaca;
+  text-align: center;
+  position: relative;
+}
+#order td table td,
+#order td table th {
+  border: 1px solid #cacaca;
+}
+#order td div {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#order td.order-phone > div {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+#order td.status {
+  width: 140px;
+}

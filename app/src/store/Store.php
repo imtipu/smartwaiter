@@ -177,7 +177,8 @@ class Store
     public function orderList(){
 //        $sql = "select * from `orders` ORDER BY `user_phone`";
         $today =date("Y-m-d");
-        $sql = "select * from `orders` where date (`ordered_at`) = CURRENT_DATE group by `user_phone`";
+        $sql = "select `order_id`,`food_id`,`food_name`,`food_quantity`,`item_price`,`total_price`,`user_phone`,`status`,`mac_address`,`ordered_at` from `orders` group by `user_phone` order by `ordered_at` DESC ";
+//        $sql = "select * from `orders` where date (`ordered_at`) = CURRENT_DATE group by `user_phone`";
         $res = $this->conn->query($sql);
         return $res;
     }

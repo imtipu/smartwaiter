@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6510dcc3-7e54-4d8a-bea3-8b685fc9e544" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kamrul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smarwaiter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/store/Store.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/store/Store.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/orders.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,42 +49,7 @@
         <item name="kamrul@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="kamrul: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="access: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kamrul@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kamrul: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="admin: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kamrul@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kamrul: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="category: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kamrul@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kamrul: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="devices: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kamrul@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kamrul: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="orders: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kamrul@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kamrul: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -95,55 +59,79 @@
       <file leaf-file-name="Store.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/store/Store.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="313" column="39" selection-start-line="313" selection-start-column="20" selection-end-line="313" selection-end-column="39" />
+            <state relative-caret-position="572">
+              <caret line="179" column="213" lean-forward="true" selection-start-line="179" selection-start-column="213" selection-end-line="179" selection-end-column="213" />
               <folding>
-                <marker date="1532635097151" expanded="true" signature="389:420" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="540:560" ph="select * fro... food" />
-                <marker date="1532635097151" expanded="true" signature="680:700" ph="select * fro... food" />
-                <marker date="1532635097151" expanded="true" signature="680:723" ph="select * fro... food" />
-                <marker date="1532635097151" expanded="true" signature="846:883" ph="select * fro... food" />
-                <marker date="1532635097151" expanded="true" signature="1061:1089" ph="update `food... " />
-                <marker date="1532635097151" expanded="true" signature="1061:1114" ph="update `food... " />
-                <marker date="1532635097151" expanded="true" signature="1061:1119" ph="update `food... " />
-                <marker date="1532635097151" expanded="true" signature="1067:1068" ph="select * fro... category" />
-                <marker date="1532635097151" expanded="true" signature="2190:2286" ph="insert into `food`... " />
-                <marker date="1532635097151" expanded="true" signature="2190:2404" ph="insert into `food`... " />
-                <marker date="1532635097151" expanded="true" signature="2528:2555" ph="update `food... " />
-                <marker date="1532635097151" expanded="true" signature="2528:2591" ph="update `food... " />
-                <marker date="1532635097151" expanded="true" signature="2528:2628" ph="update `food... " />
-                <marker date="1532635097151" expanded="true" signature="2528:2665" ph="update `food... " />
-                <marker date="1532635097151" expanded="true" signature="2528:2707" ph="update `food... " />
-                <marker date="1532635097151" expanded="true" signature="2528:2747" ph="update `food... " />
-                <marker date="1532635097151" expanded="true" signature="3032:3056" ph="select * fro... category" />
-                <marker date="1532635097151" expanded="true" signature="4408:4448" ph="select * fro... category" />
-                <marker date="1532635097151" expanded="true" signature="4772:4792" ph="select * fro... user" />
-                <marker date="1532635097151" expanded="true" signature="6097:6119" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="6097:6141" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="6859:6897" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="6859:6898" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="6859:6920" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="7222:7229" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="7222:7464" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="7588:7595" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="7588:7814" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="8136:8187" ph="update `orde... " />
-                <marker date="1532635097151" expanded="true" signature="8136:8217" ph="update `orde... " />
-                <marker date="1532635097151" expanded="true" signature="8136:8218" ph="update `orde... " />
-                <marker date="1532635097151" expanded="true" signature="8353:8435" ph="update `orde... " />
-                <marker date="1532635097151" expanded="true" signature="9261:9305" ph="select * fro... orders" />
-                <marker date="1532635097151" expanded="true" signature="9261:9306" ph="select * fro... devices" />
-                <marker date="1532635097151" expanded="true" signature="9261:9315" ph="select * fro... devices" />
+                <marker date="1532688231852" expanded="true" signature="389:420" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="540:560" ph="select * fro... food" />
+                <marker date="1532688231852" expanded="true" signature="680:700" ph="select * fro... food" />
+                <marker date="1532688231852" expanded="true" signature="680:723" ph="select * fro... food" />
+                <marker date="1532688231852" expanded="true" signature="846:883" ph="select * fro... food" />
+                <marker date="1532688231852" expanded="true" signature="1061:1089" ph="update `food... " />
+                <marker date="1532688231852" expanded="true" signature="1061:1114" ph="update `food... " />
+                <marker date="1532688231852" expanded="true" signature="1061:1119" ph="update `food... " />
+                <marker date="1532688231852" expanded="true" signature="1067:1068" ph="select * fro... category" />
+                <marker date="1532688231852" expanded="true" signature="2190:2286" ph="insert into `food`... " />
+                <marker date="1532688231852" expanded="true" signature="2190:2404" ph="insert into `food`... " />
+                <marker date="1532688231852" expanded="true" signature="2528:2555" ph="update `food... " />
+                <marker date="1532688231852" expanded="true" signature="2528:2591" ph="update `food... " />
+                <marker date="1532688231852" expanded="true" signature="2528:2628" ph="update `food... " />
+                <marker date="1532688231852" expanded="true" signature="2528:2665" ph="update `food... " />
+                <marker date="1532688231852" expanded="true" signature="2528:2707" ph="update `food... " />
+                <marker date="1532688231852" expanded="true" signature="2528:2747" ph="update `food... " />
+                <marker date="1532688231852" expanded="true" signature="3032:3056" ph="select * fro... category" />
+                <marker date="1532688231852" expanded="true" signature="4408:4448" ph="select * fro... category" />
+                <marker date="1532688231852" expanded="true" signature="4772:4792" ph="select * fro... user" />
+                <marker date="1532688231852" expanded="true" signature="6097:6119" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="6097:6141" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="7075:7113" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="7075:7114" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="7075:7136" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="7438:7445" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="7438:7680" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="7804:7811" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="7804:8030" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="8352:8403" ph="update `orde... " />
+                <marker date="1532688231852" expanded="true" signature="8352:8433" ph="update `orde... " />
+                <marker date="1532688231852" expanded="true" signature="8352:8434" ph="update `orde... " />
+                <marker date="1532688231852" expanded="true" signature="8569:8651" ph="update `orde... " />
+                <marker date="1532688231852" expanded="true" signature="9477:9521" ph="select * fro... orders" />
+                <marker date="1532688231852" expanded="true" signature="9477:9522" ph="select * fro... devices" />
+                <marker date="1532688231852" expanded="true" signature="9477:9531" ph="select * fro... devices" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="orders.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/orders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="571">
+              <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+              <folding>
+                <element signature="n#table#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orders-in-kitchen.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orders-in-kitchen.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="99" column="10" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="99" selection-end-column="10" />
+              <folding>
+                <element signature="n#table#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orders" pinned="false" current-in-tab="false">
+        <entry file="das://711b89d9-bfd7-4551-9e8f-522d70af5bcf/schema/kamrul/table/orders">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -166,11 +154,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/order-done.php" />
         <option value="$PROJECT_DIR$/order-active.php" />
         <option value="$PROJECT_DIR$/order-to-kitchen.php" />
         <option value="$PROJECT_DIR$/action/food-status.php" />
@@ -198,7 +191,6 @@
         <option value="$PROJECT_DIR$/food-add.php" />
         <option value="$PROJECT_DIR$/food-update.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/orders.php" />
         <option value="$PROJECT_DIR$/orders-active.php" />
         <option value="$PROJECT_DIR$/orders-in-kitchen.php" />
         <option value="$PROJECT_DIR$/orders-intable.php" />
@@ -219,8 +211,10 @@
         <option value="$PROJECT_DIR$/action/key-make.php" />
         <option value="$PROJECT_DIR$/action/key-delete.php" />
         <option value="$PROJECT_DIR$/invoice.php" />
-        <option value="$PROJECT_DIR$/app/src/store/Store.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/smarwaiter.sql" />
+        <option value="$PROJECT_DIR$/app/src/store/Store.php" />
+        <option value="$PROJECT_DIR$/orders.php" />
       </list>
     </option>
   </component>
@@ -315,12 +309,21 @@
       <workItem from="1527712334222" duration="14237000" />
       <workItem from="1527780750446" duration="16735000" />
       <workItem from="1532550319266" duration="11452000" />
-      <workItem from="1532634124664" duration="1102000" />
+      <workItem from="1532634124664" duration="2278000" />
+      <workItem from="1532687680651" duration="1241000" />
     </task>
+    <task id="LOCAL-00001" summary="sql updated">
+      <created>1532643727905</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532643727905</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97908000" />
+    <option name="totallyTimeSpent" value="100325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -329,30 +332,30 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.17910448" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32792208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20255864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="!tool.window.name.debug!" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="SQL Generator" order="9" weight="0.32900432" />
       <window_info anchor="bottom" id="!tool.window.name.run!" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="File Transfer" order="8" weight="0.32963374" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32792208" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32852387" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="7" visible="true" weight="0.32792208" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="!tool.window.name.debug!" order="8" />
@@ -364,18 +367,19 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="!tool.window.name.run!" order="9" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32852387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" order="15" weight="0.32963374" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.20255864" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,15 +388,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sql updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/711b89d9-bfd7-4551-9e8f-522d70af5bcf/console_1.sql" />
-    <entry file="file://$PROJECT_DIR$/action/cat-add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/action/food-status.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -516,13 +521,6 @@
     <entry file="file://$PROJECT_DIR$/session-user.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/orders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orders-intable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -602,13 +600,7 @@
     <entry file="file://$PROJECT_DIR$/user-update.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://table:/69ffd77f/711b89d9-bfd7-4551-9e8f-522d70af5bcf/kamrul.devices">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/69ffd77f/711b89d9-bfd7-4551-9e8f-522d70af5bcf/kamrul.devices" />
     <entry file="file://$PROJECT_DIR$/action/user-delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -679,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orders-in-kitchen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/start.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -693,7 +678,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/69ffd77f/711b89d9-bfd7-4551-9e8f-522d70af5bcf/kamrul.orders">
+    <entry file="das://table:/69ffd77f/711b89d9-bfd7-4551-9e8f-522d70af5bcf/kamrul.orders" />
+    <entry file="file://$PROJECT_DIR$/smarwaiter.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://711b89d9-bfd7-4551-9e8f-522d70af5bcf/schema/kamrul/table/orders">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -702,53 +702,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/store/Store.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="313" column="39" selection-start-line="313" selection-start-column="20" selection-end-line="313" selection-end-column="39" />
+        <state relative-caret-position="572">
+          <caret line="179" column="213" lean-forward="true" selection-start-line="179" selection-start-column="213" selection-end-line="179" selection-end-column="213" />
           <folding>
-            <marker date="1532635097151" expanded="true" signature="389:420" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="540:560" ph="select * fro... food" />
-            <marker date="1532635097151" expanded="true" signature="680:700" ph="select * fro... food" />
-            <marker date="1532635097151" expanded="true" signature="680:723" ph="select * fro... food" />
-            <marker date="1532635097151" expanded="true" signature="846:883" ph="select * fro... food" />
-            <marker date="1532635097151" expanded="true" signature="1061:1089" ph="update `food... " />
-            <marker date="1532635097151" expanded="true" signature="1061:1114" ph="update `food... " />
-            <marker date="1532635097151" expanded="true" signature="1061:1119" ph="update `food... " />
-            <marker date="1532635097151" expanded="true" signature="1067:1068" ph="select * fro... category" />
-            <marker date="1532635097151" expanded="true" signature="2190:2286" ph="insert into `food`... " />
-            <marker date="1532635097151" expanded="true" signature="2190:2404" ph="insert into `food`... " />
-            <marker date="1532635097151" expanded="true" signature="2528:2555" ph="update `food... " />
-            <marker date="1532635097151" expanded="true" signature="2528:2591" ph="update `food... " />
-            <marker date="1532635097151" expanded="true" signature="2528:2628" ph="update `food... " />
-            <marker date="1532635097151" expanded="true" signature="2528:2665" ph="update `food... " />
-            <marker date="1532635097151" expanded="true" signature="2528:2707" ph="update `food... " />
-            <marker date="1532635097151" expanded="true" signature="2528:2747" ph="update `food... " />
-            <marker date="1532635097151" expanded="true" signature="3032:3056" ph="select * fro... category" />
-            <marker date="1532635097151" expanded="true" signature="4408:4448" ph="select * fro... category" />
-            <marker date="1532635097151" expanded="true" signature="4772:4792" ph="select * fro... user" />
-            <marker date="1532635097151" expanded="true" signature="6097:6119" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="6097:6141" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="6859:6897" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="6859:6898" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="6859:6920" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="7222:7229" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="7222:7464" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="7588:7595" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="7588:7814" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="8136:8187" ph="update `orde... " />
-            <marker date="1532635097151" expanded="true" signature="8136:8217" ph="update `orde... " />
-            <marker date="1532635097151" expanded="true" signature="8136:8218" ph="update `orde... " />
-            <marker date="1532635097151" expanded="true" signature="8353:8435" ph="update `orde... " />
-            <marker date="1532635097151" expanded="true" signature="9261:9305" ph="select * fro... orders" />
-            <marker date="1532635097151" expanded="true" signature="9261:9306" ph="select * fro... devices" />
-            <marker date="1532635097151" expanded="true" signature="9261:9315" ph="select * fro... devices" />
+            <marker date="1532688231852" expanded="true" signature="389:420" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="540:560" ph="select * fro... food" />
+            <marker date="1532688231852" expanded="true" signature="680:700" ph="select * fro... food" />
+            <marker date="1532688231852" expanded="true" signature="680:723" ph="select * fro... food" />
+            <marker date="1532688231852" expanded="true" signature="846:883" ph="select * fro... food" />
+            <marker date="1532688231852" expanded="true" signature="1061:1089" ph="update `food... " />
+            <marker date="1532688231852" expanded="true" signature="1061:1114" ph="update `food... " />
+            <marker date="1532688231852" expanded="true" signature="1061:1119" ph="update `food... " />
+            <marker date="1532688231852" expanded="true" signature="1067:1068" ph="select * fro... category" />
+            <marker date="1532688231852" expanded="true" signature="2190:2286" ph="insert into `food`... " />
+            <marker date="1532688231852" expanded="true" signature="2190:2404" ph="insert into `food`... " />
+            <marker date="1532688231852" expanded="true" signature="2528:2555" ph="update `food... " />
+            <marker date="1532688231852" expanded="true" signature="2528:2591" ph="update `food... " />
+            <marker date="1532688231852" expanded="true" signature="2528:2628" ph="update `food... " />
+            <marker date="1532688231852" expanded="true" signature="2528:2665" ph="update `food... " />
+            <marker date="1532688231852" expanded="true" signature="2528:2707" ph="update `food... " />
+            <marker date="1532688231852" expanded="true" signature="2528:2747" ph="update `food... " />
+            <marker date="1532688231852" expanded="true" signature="3032:3056" ph="select * fro... category" />
+            <marker date="1532688231852" expanded="true" signature="4408:4448" ph="select * fro... category" />
+            <marker date="1532688231852" expanded="true" signature="4772:4792" ph="select * fro... user" />
+            <marker date="1532688231852" expanded="true" signature="6097:6119" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="6097:6141" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="7075:7113" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="7075:7114" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="7075:7136" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="7438:7445" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="7438:7680" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="7804:7811" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="7804:8030" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="8352:8403" ph="update `orde... " />
+            <marker date="1532688231852" expanded="true" signature="8352:8433" ph="update `orde... " />
+            <marker date="1532688231852" expanded="true" signature="8352:8434" ph="update `orde... " />
+            <marker date="1532688231852" expanded="true" signature="8569:8651" ph="update `orde... " />
+            <marker date="1532688231852" expanded="true" signature="9477:9521" ph="select * fro... orders" />
+            <marker date="1532688231852" expanded="true" signature="9477:9522" ph="select * fro... devices" />
+            <marker date="1532688231852" expanded="true" signature="9477:9531" ph="select * fro... devices" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/orders-in-kitchen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="367">
+          <caret line="99" column="10" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="99" selection-end-column="10" />
+          <folding>
+            <element signature="n#table#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+          <folding>
+            <element signature="n#table#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

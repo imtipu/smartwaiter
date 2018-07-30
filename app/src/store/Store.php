@@ -147,7 +147,7 @@ class Store
         $res = $this->conn->query($sql);
         return $res;
     }
-    public function deviceAdd($mac,$table){
+    public function deviceAdd($table,$mac){
         $new_mac = mysqli_real_escape_string($this->conn,$mac);
         $sql = 'insert into `devices` (`table_name`,`mac_address`) values ("'.$table.'","'.$new_mac.'")';
         $res = $this->conn->query($sql);

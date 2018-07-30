@@ -200,8 +200,13 @@ class Store
         $res = $this->conn->query($sql);
         return $res;
     }
+    public function orderInTable(){
+        $sql = "select `order_id`,`food_id`,`food_name`,`food_quantity`,`item_price`,`total_price`,`user_phone`,`status`,`mac_address`,`ordered_at` from `orders` where `status`=2 group by `user_phone` order by `ordered_at` ASC ";
+        $res = $this->conn->query($sql);
+        return $res;
+    }
     public function orderDone(){
-        $sql = "select `order_id`,`food_id`,`food_name`,`food_quantity`,`item_price`,`total_price`,`user_phone`,`status`,`mac_address`,`ordered_at` from `orders` where `status`=2  or `status`=3 group by `user_phone` order by `ordered_at` ASC ";
+        $sql = "select `order_id`,`food_id`,`food_name`,`food_quantity`,`item_price`,`total_price`,`user_phone`,`status`,`mac_address`,`ordered_at` from `orders` where `status`=3 group by `user_phone` order by `ordered_at` ASC ";
         $res = $this->conn->query($sql);
         return $res;
     }

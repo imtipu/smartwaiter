@@ -80,12 +80,31 @@ if (!isset($_SESSION['login'])){
                             </table>
                         </td>
 
-                        <td class="status">
-                            <div>
-                                <a href="action/order-status.php?phone=<?=$order['user_phone']?>&status=<?=$order['status']?>" class="btn btn-sm btn-info">Deliver To Table</a>
-
+                        <td class="status text-center">
+                            <div class="text-center" id="status_<?=$order['user_phone']?>">
+                                <?php
+                                if ($order['status'] == 2) {
+                                    ?>
+                                    <span class="btn btn-sm btn-outline-dark">Order In Table</span>
+                                    <?php
+                                }elseif ($order['status'] == 3){
+                                    ?>
+                                    <span class="btn btn-success btn-sm">Order Completed.</span>
+                                    <a target="_blank" href="invoice.php?phone=<?= $order['user_phone'] ?>&status=<?= $order['status'] ?>"
+                                       class="mt-3 btn btn-sm btn-info">Create Invoice</a>
+                                    <?php
+                                }elseif ($order['status'] == 0){
+                                    ?>
+                                    <span class="mt-3 btn btn-sm btn-outline-info">Active</span>
+                                    <?php
+                                }
+                                elseif ($order['status'] == 1){
+                                    ?>
+                                    <span class="mt-3 btn btn-sm btn-outline-primary">In Kitchen</span>
+                                    <?php
+                                }
+                                ?>
                             </div>
-
                         </td>
                     </tr>
                     <?php

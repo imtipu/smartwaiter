@@ -1,7 +1,7 @@
 <?php
 include 'start.php';
 require 'vendor/autoload.php';
-$page = "orders-in-table";
+$page = "orders-done";
 //require_once 'style.php';
 use App\store;
 if (!isset($_SESSION['login'])){
@@ -9,18 +9,18 @@ if (!isset($_SESSION['login'])){
 }else{
     $getStore = new store\Store();
     $foods = $getStore->foodList();
-    $orders = $getStore->orderInTable();
+    $orders = $getStore->orderDone();
     ?>
     <!doctype html>
     <html lang="en">
     <head>
         <?php include 'header.php';?>
-        <title>Order In Table</title>
+        <title>Completed Orders</title>
     </head>
     <body>
     <?php include 'nav.php';?>
     <main class="container">
-        <h3 class="text-center">Orders In Table</h3>
+        <h3 class="text-center">Orders Completed</h3>
         <hr>
         <?php
         if ($orders->num_rows > 0){
@@ -80,23 +80,11 @@ if (!isset($_SESSION['login'])){
                         </td>
 
                         <td class="status">
-                            <div id="status_<?=$order['user_phone']?>">
-                                <?php
-                                if ($order['status'] == 2) {
-                                    ?>
-                                    <span class="btn btn-sm btn-success">Order In Table</span>
-                                    <br>
-                                    <button onclick="orderCompleteModal(<?=$order['status']?>,<?=$order['user_phone']?>,event)" class="mt-3 btn btn-sm btn-info">Complete now</button>
-
-                                    <?php
-                                }elseif ($order['status'] == 3){
-                                    ?>
-                                <a target="_blank" href="invoice.php?phone=<?= $order['user_phone'] ?>&status=<?= $order['status'] ?>"
-                                   class="mt-3 btn btn-sm btn-info">Create Invoice</a>
-                                <?php
-                                }
-                                ?>
+                            <div>
+                                <button class="btn btn-sm btn-success">Order Completed</button>
+                                <a target="_blank" href="invoice.php?phone=<?= $order['user_phone'] ?>&status=<?= $order['status'] ?>" class="mt-3 btn btn-sm btn-info">Create Invoice</a>
                             </div>
+
                         </td>
                     </tr>
                     <?php

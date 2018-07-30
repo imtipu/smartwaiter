@@ -36,7 +36,8 @@ $loginUser = $getAdmin->getSessionUser($_SESSION['login_id']);
                         <a class="dropdown-item <?php if ($page == "orders"){echo "active";}?>" href="<?=$root.'orders.php'?>">All Orders</a>
                         <a class="dropdown-item <?php if ($page == "orders-active"){echo "active";}?>" href="<?=$root.'orders-active.php'?>">Active Orders</a>
                         <a class="dropdown-item <?php if ($page == "orders-in-kitchen"){echo "active";}?>" href="<?=$root.'orders-in-kitchen.php'?>">In Kitchen</a>
-                        <a class="dropdown-item <?php if ($page == "orders-in-table"){echo "active";}?>" href="<?=$root.'orders-intable.php'?>">Order Done</a>
+                        <a class="dropdown-item <?php if ($page == "orders-in-table"){echo "active";}?>" href="<?=$root.'orders-intable.php'?>">Order In Table</a>
+                        <a class="dropdown-item <?php if ($page == "orders-done"){echo "active";}?>" href="<?=$root.'order-done.php'?>">Orders Done</a>
                     </div>
                 </li>
             </ul>

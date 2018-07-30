@@ -15,7 +15,7 @@ if (!isset($_SESSION['login'])){
     <html lang="en">
     <head>
         <?php include 'header.php';?>
-        <title>Admin</title>
+        <title>Orders</title>
     </head>
     <body>
     <?php include 'nav.php';?>
